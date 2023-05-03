@@ -1,0 +1,43 @@
+body {
+    background-color: #d9e1ed;
+    font-family: "Montserrat";
+}
+
+#qr-body {
+    margin: 10vh auto;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 11px 10px #acb8ca;
+}
+
+img {
+    /* width: 80%; */
+    margin: 15px;
+    border-radius: 20px;
+}
+
+h2, p {
+    margin: 15px;
+}
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+    color: gray
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
